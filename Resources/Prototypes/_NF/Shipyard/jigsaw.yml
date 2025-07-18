@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: LVHI Jigsaw
   description: A (commercially unsuccessful) experiment in modular ship design, the Jigsaw has found a niche among salvagers who like to build additions to their vessels.
-  price: 17000 # 15898 0.05 16692.9
+  price: 19000 # 15898 0.05 16692.9
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/jigsaw.yml
@@ -21,7 +21,7 @@
   class:
   - Salvage
   engine:
-  - Plasma
+  - Uranium
 
 - type: gameMap
   id: Jigsaw
