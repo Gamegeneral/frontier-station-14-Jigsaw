@@ -21,6 +21,10 @@ bld/
 [Bb]in/
 [Oo]bj/
 [Ll]og/
+# Unignore saves temporarily
+![Bb]in/Content.Server
+![Bb]in/Content.Server/data
+![Bb]in/Content.Server/data/*
 
 # Visual Studio 2015 cache/options directory
 .vs/
