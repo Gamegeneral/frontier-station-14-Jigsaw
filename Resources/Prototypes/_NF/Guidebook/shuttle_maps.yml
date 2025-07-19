@@ -144,6 +144,18 @@
 
 - type: entity
   parent: PosterBase
+  id: ShuttleMapJigsaw
+  name: "NC Jigsaw"
+  description: "Detailed map of a Jigsaw shuttle."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _NF/Guidebook/shuttle_maps/128x96.rsi
+    state: jigsaw
+    scale: 1.2, 1.2
+
+- type: entity
+  parent: PosterBase
   id: ShuttleMapComet
   name: "NT Comet"
   description: "Detailed map of a Comet shuttle."
@@ -416,8 +428,8 @@
   - type: Sprite
     sprite: _NF/Guidebook/shuttle_maps/128x96.rsi
     state: prospector
-    scale: 1.2, 1.2    
- 
+    scale: 1.2, 1.2
+
 - type: entity
   parent: PosterBase
   id: ShuttleMapPulsar

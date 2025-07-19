@@ -37,6 +37,7 @@
   - ShipyardHonker
   - ShipyardInvestigator
   - ShipyardIzakaya
+  - ShipyardJigsaw
   - ShipyardKestrel
   - ShipyardKilderkin
   - ShipyardLegman
@@ -226,6 +227,11 @@
   id: ShipyardIzakaya
   name: guide-entry-shipyard-izakaya
   text: "/ServerInfo/_NF/Guidebook/Shipyard/Izakaya.xml"
+
+- type: guideEntry
+  id: ShipyardJigsaw
+  name: guide-entry-shipyard-jigsaw
+  text: "/ServerInfo/_NF/Guidebook/Shipyard/Jigsaw.xml"
 
 - type: guideEntry
   id: ShipyardKestrel
