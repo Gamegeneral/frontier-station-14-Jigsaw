@@ -4,8 +4,8 @@ meta:
   engineVersion: 255.1.0
   forkId: ""
   forkVersion: ""
-  time: 07/19/2025 16:47:52
-  entityCount: 285
+  time: 07/19/2025 19:51:14
+  entityCount: 287
 maps: []
 grids:
 - 1
@@ -377,7 +377,7 @@ entities:
       pos: 2.5,-0.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -10626.001
+      secondsUntilStateChange: -10896.809
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -388,7 +388,7 @@ entities:
       pos: 3.5,-0.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -10628.301
+      secondsUntilStateChange: -10899.108
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -883,6 +883,22 @@ entities:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 4.5,2.5
+      parent: 1
+- proto: DefibrillatorCabinet
+  entities:
+  - uid: 286
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 1.5,0.5
+      parent: 1
+- proto: ExtinguisherCabinetFilled
+  entities:
+  - uid: 287
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -4.5,-3.5
       parent: 1
 - proto: FaxMachineShip
   entities:
