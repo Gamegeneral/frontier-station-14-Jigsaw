@@ -5,7 +5,7 @@
   </Box>
     [color=#a4885c]Ship Size:[/color] Small
 
-	[color=#a4885c]Recommended Crew:[/color] 3+
+	[color=#a4885c]Recommended Crew:[/color] 2+
 
 	[color=#a4885c]Power Gen Type:[/color] Uranium
 
@@ -16,8 +16,10 @@
   "First of a short-lived line of modular, tesselating vessels, the Jigsaw comes kitted for small salvage operations, and from the overbuild thrusters to easily removable walls and windows, is designed with user-modification foremost in mind."
 
   # Tips on running NC Jigsaw shuttles
-  - Optimal Target Power (kW) for S.U.P.E.R.P.A.C.M.A.N. generator unit is 21 [bold]kW[/bold]. If you've added additional machines, check APC unit to see shuttle's power draw and adjust generator Target Power accordingly. For more general info on power grid see guidebook article [textlink="Power" link="Power"]. Be sure to increase power output accordingly if you start adding rooms.
-  - The fore of the ship has a salvage and ore processing area, with conveyors linked to the external balcony, allowing for easy reclamation and processing of building materials. The entryway has a materials locker to get you started.
+  - Optimal Target Power (kW) for S.U.P.E.R.P.A.C.M.A.N. generator unit is 25 [bold]kW[/bold]. If you've added additional machines, check APC unit to see shuttle's power draw and adjust generator Target Power accordingly. For more general info on power grid see guidebook article [textlink="Power" link="Power"]. Be sure to increase power output accordingly if you start adding rooms. If you need to shave some power usage off, you can disable one fore and one after thruster until after you've added enough mass to need them.
+  - The fore of the ship has a salvage, scrap and ore processing area, with conveyors linked to the external balcony, allowing for easy reclamation and processing of building materials.
+  - The entryway of the ship has a materials locker to get you started. The living area has a shipyard RCD as well.
+  - Use the spare Air Canister to pressurize new rooms so you don't deplete your existing O2/N2 supplies. It starts with enough air to pressurize a 4x4 space.
   - The windows of the shuttle indicate good areas to add annexes to, and the Jigsaw boasts additional thrust to make sure your modifications don't slow you down.
   - Make sure to consult the guidebook entry on [textlink="Expanding and Repairing Stations" link="ExpandingRepairingStation"] before you start knocking holes in the walls.
   - For basics of shuttle piloting see [textlink="Piloting" link="Piloting"].
