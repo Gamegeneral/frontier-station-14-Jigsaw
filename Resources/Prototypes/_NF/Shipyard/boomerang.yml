@@ -1,0 +1,46 @@
+# Author Info
+# GitHub: gamegeneral (https://github.com/Gamegeneral)
+# Discord:
+
+# Maintainer Info
+# GitHub: gamegeneral (https://github.com/Gamegeneral)
+# Discord:
+
+# Shuttle Notes:
+#
+- type: vessel
+  id: Boomerang
+  parent: BaseVessel
+  name: NC Boomerang
+  description: A medium salvage vessel with a focus on long-term salvage operations without needing to return to station.
+  price: 48000 #47458 at current appraisal, no markup yet
+  category: Medium
+  group: Shipyard
+  shuttlePath: /Maps/_NF/Shuttles/boomerang.yml
+  guidebookPage: ShipyardBoomerang
+  class:
+  - Salvage
+  - Service
+  engine:
+  - Solar
+  - Uranium
+
+- type: gameMap
+  id: Boomerang
+  mapName: 'NC Boomerang'
+  mapPath: /Maps/_NF/Shuttles/barge.yml
+  minPlayers: 0
+  stations:
+    Boomerang:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Boomerang {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            ContractorInterview: [ 0, 0 ]
+            PilotInterview: [ 0, 0 ]
+            MercenaryInterview: [ 0, 0 ]

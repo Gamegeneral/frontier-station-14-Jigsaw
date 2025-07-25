@@ -51,6 +51,7 @@ guide-entry-shipyard-bazaar = Bazaar
 guide-entry-shipyard-bocadillo = Bocadillo
 guide-entry-shipyard-bodkin = Bodkin
 guide-entry-shipyard-bookworm = Bookworm
+guide-entry-shipyard-boomerang = Boomerang
 guide-entry-shipyard-brigand = Brigand
 guide-entry-shipyard-bulker = Bulker
 guide-entry-shipyard-caladrius = Caladrius

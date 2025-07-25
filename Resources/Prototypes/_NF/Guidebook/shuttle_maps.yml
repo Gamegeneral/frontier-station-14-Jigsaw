@@ -416,8 +416,8 @@
   - type: Sprite
     sprite: _NF/Guidebook/shuttle_maps/128x96.rsi
     state: prospector
-    scale: 1.2, 1.2    
- 
+    scale: 1.2, 1.2
+
 - type: entity
   parent: PosterBase
   id: ShuttleMapPulsar
@@ -536,4 +536,16 @@
   - type: Sprite
     sprite: _NF/Guidebook/shuttle_maps/128x96.rsi
     state: nook
+    scale: 1.2, 1.2
+
+- type: entity
+  parent: PosterBase
+  id: ShuttleMapBoomerang
+  name: "NC Boomerang"
+  description: "Detailed map of a Boomerang shuttle."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _NF/Guidebook/shuttle_maps/128x96.rsi
+    state: boomerang #Replacewith boomerang later
     scale: 1.2, 1.2
